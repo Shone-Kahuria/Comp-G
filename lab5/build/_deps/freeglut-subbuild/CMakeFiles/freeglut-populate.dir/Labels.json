@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/freeglut-populate"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/7b14458e5bed0e6e6178d19fde1bd5b8/freeglut-populate.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/6d772d123c4d64532376368f62236b39/freeglut-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/b15120fdeec74b59b4a9e7066a47682c/freeglut-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"freeglut-populate"
+		],
+		"name" : "freeglut-populate"
+	}
+}

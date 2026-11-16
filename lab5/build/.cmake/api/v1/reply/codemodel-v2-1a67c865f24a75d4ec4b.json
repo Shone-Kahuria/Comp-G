@@ -1,0 +1,752 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-d4a8583ba27c1d11ec7a.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-Debug-37106d777b78c56d2fd6.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GL::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GL-Debug-ad8aafe95f4308362597.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-Debug-425157fc12c87369cdaf.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLU::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GLU-Debug-e006f5a0d9e5af3f84a3.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"build" : "_deps/freeglut-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freeglut-build-Debug-db762eb28b67a914570e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/freeglut-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ComputerGraphicsExperiments6And7",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-6855ff3993ad675fd645.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@9b5b85394de702dc6831",
+					"jsonFile" : "target-ALL_BUILD-Debug-975ece9334200fa351f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-cea305bb095c8df67c20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment6_sierpinski::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment6_sierpinski-Debug-c285cf652df96b929ed8.json",
+					"name" : "experiment6_sierpinski",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment7_bezier_flag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment7_bezier_flag-Debug-8958d0bff597ed3406a1.json",
+					"name" : "experiment7_bezier_flag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freeglut_static::@9b5b85394de702dc6831",
+					"jsonFile" : "target-freeglut_static-Debug-fec4450082a7e24ca872.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Release-d4a8583ba27c1d11ec7a.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-Release-37106d777b78c56d2fd6.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GL::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GL-Release-ad8aafe95f4308362597.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-Release-425157fc12c87369cdaf.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLU::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GLU-Release-e006f5a0d9e5af3f84a3.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"build" : "_deps/freeglut-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freeglut-build-Release-c011590423267ebfc9c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/freeglut-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ComputerGraphicsExperiments6And7",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-6855ff3993ad675fd645.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@9b5b85394de702dc6831",
+					"jsonFile" : "target-ALL_BUILD-Release-975ece9334200fa351f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-cea305bb095c8df67c20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment6_sierpinski::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment6_sierpinski-Release-45ad40c3a8df8583f24f.json",
+					"name" : "experiment6_sierpinski",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment7_bezier_flag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment7_bezier_flag-Release-73c41d60dd294b6abc44.json",
+					"name" : "experiment7_bezier_flag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freeglut_static::@9b5b85394de702dc6831",
+					"jsonFile" : "target-freeglut_static-Release-9a890c6c09b9bf5ca9a5.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-MinSizeRel-d4a8583ba27c1d11ec7a.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-MinSizeRel-37106d777b78c56d2fd6.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GL::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GL-MinSizeRel-ad8aafe95f4308362597.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-MinSizeRel-425157fc12c87369cdaf.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLU::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GLU-MinSizeRel-e006f5a0d9e5af3f84a3.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"build" : "_deps/freeglut-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freeglut-build-MinSizeRel-ee86993cbc258147c6ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/freeglut-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ComputerGraphicsExperiments6And7",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6855ff3993ad675fd645.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@9b5b85394de702dc6831",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-975ece9334200fa351f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-cea305bb095c8df67c20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment6_sierpinski::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment6_sierpinski-MinSizeRel-cc073bb1050f5f9d58c8.json",
+					"name" : "experiment6_sierpinski",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment7_bezier_flag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment7_bezier_flag-MinSizeRel-1f1923495621b7fa4d23.json",
+					"name" : "experiment7_bezier_flag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freeglut_static::@9b5b85394de702dc6831",
+					"jsonFile" : "target-freeglut_static-MinSizeRel-4c8922ee3e4145f50a82.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-d4a8583ba27c1d11ec7a.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-RelWithDebInfo-37106d777b78c56d2fd6.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GL::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GL-RelWithDebInfo-ad8aafe95f4308362597.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-RelWithDebInfo-425157fc12c87369cdaf.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenGL::GLU::@9b5b85394de702dc6831",
+					"jsonFile" : "target-OpenGL__GLU-RelWithDebInfo-e006f5a0d9e5af3f84a3.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"build" : "_deps/freeglut-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freeglut-build-RelWithDebInfo-83a51948a7fd8876553b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/freeglut-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ComputerGraphicsExperiments6And7",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6855ff3993ad675fd645.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@9b5b85394de702dc6831",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-975ece9334200fa351f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-cea305bb095c8df67c20.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment6_sierpinski::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment6_sierpinski-RelWithDebInfo-b0db80a101d4dab8a93a.json",
+					"name" : "experiment6_sierpinski",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "experiment7_bezier_flag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-experiment7_bezier_flag-RelWithDebInfo-40517c04b7072875b7ff.json",
+					"name" : "experiment7_bezier_flag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freeglut_static::@9b5b85394de702dc6831",
+					"jsonFile" : "target-freeglut_static-RelWithDebInfo-5744ff9da119b37f5644.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build",
+		"source" : "C:/Users/shone/OneDrive/Desktop/Comp G/lab5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

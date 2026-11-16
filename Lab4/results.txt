@@ -1,0 +1,10 @@
+Shape      Algorithm                Pixels Avg ms (20x)
+triangle   Boundary Fill (4)         69054        2.655
+triangle   Boundary Fill (8)         69054        6.680
+triangle   Flood Fill (4)            69054        2.666
+triangle   Scan-Line Fill            70150        0.156
+pentagon   Boundary Fill (4)         83642        3.639
+pentagon   Boundary Fill (8)         83642        7.705
+pentagon   Flood Fill (4)            83642        3.400
+pentagon   Scan-Line Fill            85080        0.184
+Saved flood_multicolour.bmp (flood fill stops at the red divider)

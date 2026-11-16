@@ -1,0 +1,47 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build/_deps/freeglut-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "freeglut_static::@9b5b85394de702dc6831"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@9b5b85394de702dc6831",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "freeglut_static::@9b5b85394de702dc6831"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/freeglut-build",
+		"source" : "build/_deps/freeglut-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

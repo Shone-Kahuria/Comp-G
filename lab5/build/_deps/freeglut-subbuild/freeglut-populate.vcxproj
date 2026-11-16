@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3C5D7D28-B785-332C-801A-7E86989A3B75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>freeglut-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/tmp/freeglut-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/tmp/freeglut-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\freeglut-populate-gitinfo.txt;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/tmp/freeglut-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\tmp\freeglut-populate-gitupdate.cmake;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\freeglut-populate-update-info.txt;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\freeglut-populate-patch-info.txt;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\tmp\freeglut-populate-cfgcmd.txt;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\b15120fdeec74b59b4a9e7066a47682c\freeglut-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\6d772d123c4d64532376368f62236b39\freeglut-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'freeglut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/Debug/freeglut-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate-prefix/src/freeglut-populate-stamp/Debug/freeglut-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-install;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-mkdir;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-download;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-update;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-patch;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-configure;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-build;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\src\freeglut-populate-stamp\Debug\freeglut-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\Debug\freeglut-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\7b14458e5bed0e6e6178d19fde1bd5b8\freeglut-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\Debug\freeglut-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\freeglut-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild" "-BC:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild" --check-stamp-file "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\freeglut-populate-prefix\tmp\freeglut-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\CMakeFiles\freeglut-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\build\_deps\freeglut-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{07C0BD50-CF73-3714-AD95-07031891C9E1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

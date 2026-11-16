@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\src\experiment6_sierpinski.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shone\OneDrive\Desktop\Comp G\lab5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C6385E79-187F-3114-800F-6BD966477841}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

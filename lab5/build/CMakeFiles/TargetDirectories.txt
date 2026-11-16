@@ -1,0 +1,8 @@
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/CMakeFiles/experiment6_sierpinski.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/CMakeFiles/experiment7_bezier_flag.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/CMakeFiles/INSTALL.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-build/CMakeFiles/freeglut_static.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-build/CMakeFiles/INSTALL.dir
+C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-build/CMakeFiles/ALL_BUILD.dir

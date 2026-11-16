@@ -1,0 +1,10 @@
+^C:\USERS\SHONE\ONEDRIVE\DESKTOP\COMP G\LAB5\BUILD\_DEPS\FREEGLUT-SUBBUILD\CMAKEFILES\7B14458E5BED0E6E6178D19FDE1BD5B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild" "-BC:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/shone/OneDrive/Desktop/Comp G/lab5/build/_deps/freeglut-subbuild/freeglut-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

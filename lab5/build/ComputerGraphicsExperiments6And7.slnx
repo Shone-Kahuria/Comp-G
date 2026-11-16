@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="92ed93c8-3bb8-3e32-8403-af2bd2abdf49">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="experiment6_sierpinski.vcxproj"/>
+		<BuildDependency Project="experiment7_bezier_flag.vcxproj"/>
+		<BuildDependency Project="_deps/freeglut-build/freeglut_static.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f387f03e-bb22-3703-b142-c476df57ebbc">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d5bf6b1a-f6d1-3d8a-995b-736541aa02f8"/>
+	<Project Path="experiment6_sierpinski.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="33611d90-b114-3f38-a157-82248e702ba1">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/freeglut-build/freeglut_static.vcxproj"/>
+	</Project>
+	<Project Path="experiment7_bezier_flag.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="52e5063b-a547-38a4-9ad6-9773cd46a1f2" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/freeglut-build/freeglut_static.vcxproj"/>
+	</Project>
+	<Project Path="_deps/freeglut-build/freeglut_static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="de5aa94f-2b7c-3055-83ad-c87d2da11c5e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+</Solution>
